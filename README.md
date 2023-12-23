@@ -34,7 +34,7 @@ The sixteen LEDs scroll in a celebratory fashion after game is over and winner h
 * The constraints file; cons.xdc, is specifically written for Nexys A7 board based on Artix-7™ FPGA from Xilinx®
 
  
-## Recommendations and Future Work
+## Future Work
 - Further testing and optimization for real-time performance.
 - Enhancements to the user interface for a more immersive gaming experience.
 - Future iterations will include sound output and VGA integration for enhanced audio-visual feedback.
