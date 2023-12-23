@@ -1,33 +1,8 @@
 # T20 Cricket Game on Nexys A7 
 
 
-## Project Details
-**University   :** Shiv Nadar University, Delhi-NCR, India
-**Course       :** Digital System Design With FPGAs (EED 359)
-**Supervisor   :** Dr. Amitabh Chatterjee, Associate Professor, School of Engineering, Shiv Nadar University, Delhi-NCR, India
-**Project Title:** T20 Cricket Game on Nexys A7
-
-
-## Team Members
-**Member 1:** 
-	Gonela Sreeman 
-	B.Tech. in Electronics and Communication 
-	Batch of 2024
-	2010110264
-**Member 2:**
-	Madhuri Chitturi
-	B.Tech. in Electronics and Communication 
-	Batch of 2024
-	2010110376
-**Member 3:**
-	Akshaya Kanivannan
-	B.Tech. in Electronics and Communication 
-	Batch of 2024
-	2010110785
-
-          
 ## Introduction
-* This project aims to implement a realistic cricket game on a Nexys A7 FPGA board using Verilog. 
+* The project aims to implement a realistic cricket game on a Nexys A7 FPGA board using Verilog. 
 * The game consists of two innings. Teams take turns batting, attempting to score as many runs as possible before completing 20 deliveries or losing 5 wickets. 
 * It incorporates various modules to simulate a cricket match, including a pseudo-random number generator (LFSR), button debouncing, seven-segment LED display for score tracking, scrolling LEDs, and tri-state LEDs.
 
@@ -50,13 +25,13 @@ Let us consider Bits 7-0 on the seven-segment display.
 - After game is over and winner has been decided, the other LED glows in a celebratory rainbow transition. 
 
 ### LEDs:
-The sixteen LEDs scroll in a celebratory fashion after game is over. 
+The sixteen LEDs scroll in a celebratory fashion after game is over and winner has been decided. 
 
 
 ## Comments
 * The top module of the code is cricket_game.v
-* Enabling tb.v file will allow the running of simulation (This file is not required for working on board)
-* The constraints file cons.xdc is specifically written for Nexys A7 board based on Artix-7™ FPGA from Xilinx®
+* Enabling the testbench file; tb.v, allows the running of simulation and viewing of limited outputs as a waveform (This file is not required for working on board)
+* The constraints file; cons.xdc, is specifically written for Nexys A7 board based on Artix-7™ FPGA from Xilinx®
 
  
 ## Recommendations and Future Work
@@ -67,8 +42,10 @@ The sixteen LEDs scroll in a celebratory fashion after game is over.
 
  
 ## Acknowledgments
-> We extend our heartfelt gratitude to Dr. Amitabh Chatterjee, the course professor, and Dr. Atul Singh, our dedicated lab TA, for their invaluable guidance and support throughout the project. 
-> Their expertise and encouragement significantly contributed to the successful completion of this project. 
+Thank you team members; **Member 1:** Gonela Sreeman, **Member 2:** Madhuri Chitturi, and **Member 3:** Akshaya Kanivannan, all majors of B.Tech. in Electronics and Communication, Batch of 2024, Shiv Nadar University, Delhi-NCR, India, for working diligently towards the success of this project. Some of the code and ideas referenced from previous projects are linked to below, and we thank our predecessors for providing us with this invaluable knowledge which proved to be very helpful to build upon.
+> Our team would also like to thank Shiv Nadar University, Delhi-NCR, India, for providing us with the course on Digital System Design With FPGAs (EED 359).
+> We extend our heartfelt gratitude to Dr. Amitabh Chatterjee, Associate Professor, School of Engineering, Shiv Nadar University, Delhi-NCR, India, the course professor, and Dr. Atul Singh, our dedicated lab TA, for their invaluable guidance and support throughout the project.
+> Their expertise and encouragement significantly contributed to the successful completion of this project.
  
 
 ## References
