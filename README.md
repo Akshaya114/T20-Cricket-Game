@@ -44,7 +44,7 @@ The sixteen LEDs scroll in a celebratory fashion after game is over and winner h
 ## Acknowledgments
 Thank you team members; **Member 1:** Gonela Sreeman, **Member 2:** Madhuri Chitturi, and **Member 3:** Akshaya Kanivannan, all majors of B.Tech. in Electronics and Communication, Batch of 2024, Shiv Nadar University, Delhi-NCR, India, for working diligently towards the success of this project. Some of the code and ideas referenced from previous projects are linked to below, and we thank our predecessors for providing us with this invaluable knowledge which proved to be very helpful to build upon.
 > Our team would also like to thank Shiv Nadar University, Delhi-NCR, India, for providing us with the course on Digital System Design With FPGAs (EED 359).
-> We extend our heartfelt gratitude to Dr. Amitabh Chatterjee, Associate Professor, School of Engineering, Shiv Nadar University, Delhi-NCR, India, the course professor, and Dr. Atul Singh, our dedicated lab TA, for their invaluable guidance and support throughout the project.
+> We extend our heartfelt gratitude to the course professor; Dr. Amitabh Chatterjee, Associate Professor, School of Engineering, Shiv Nadar University, Delhi-NCR, India, and our dedicated lab TAs; Mr. Atul Srivastava, and Mr. Mohan Kumar, for their invaluable guidance and support throughout the project.
 > Their expertise and encouragement significantly contributed to the successful completion of this project.
  
 
